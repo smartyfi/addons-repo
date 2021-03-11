@@ -1,0 +1,7 @@
+---
+channel: stable
+addons:
+  zerotier:
+    repository: hassio-addons/addon-zerotier
+    target: zerotier
+    image: ghcr.io/hassio-addons/zerotier/{arch}
