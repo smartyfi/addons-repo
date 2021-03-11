@@ -11,7 +11,7 @@ RUN \
     apk add --no-cache --virtual .build-dependencies \
         build-base=0.5-r2 \
         linux-headers=5.7.8-r0 \
-        git \
+        git=2.30.1-r0 \
     \
     && apk add --no-cache \
         libgcc=10.2.1_pre1-r3 \
@@ -34,6 +34,7 @@ RUN apk add --no-cache iptables
 # Copy root filesystem
 COPY rootfs /
 
+RUN ["chmod", "+x", "/etc/services.d/zerotier/bridge.sh"]
 
 # Build arguments
 ARG BUILD_ARCH
