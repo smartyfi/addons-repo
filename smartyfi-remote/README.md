@@ -1,12 +1,6 @@
 # Home Assistant Community Add-on: ZeroTier One
 
-[![Release][release-shield]][release] ![Project Stage][project-stage-shield] ![Project Maintenance][maintenance-shield]
-
-[![Discord][discord-shield]][discord] [![Community Forum][forum-shield]][forum]
-
-[![Sponsor Frenck via GitHub Sponsors][github-sponsors-shield]][github-sponsors]
-
-[![Support Frenck on Patreon][patreon-shield]][patreon]
+[![Release][release-shield]][release] ![Project Stage][project-stage-shield] ![Project Maintenance]
 
 Radically simplify your network with a virtual networking layer that works
 the same everywhere.
