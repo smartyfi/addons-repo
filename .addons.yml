@@ -1,7 +1,0 @@
----
-channel: stable
-addons:
-  zerotier:
-    repository: smartyfi/addon-smartyfi-remote
-    target: zerotier
-    image: ghcr.io/hassio-addons/zerotier/{arch}
