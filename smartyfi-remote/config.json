@@ -20,7 +20,7 @@
     "options": {
         "networks": ["!secret zt_network_id"],
         "api_auth_token": "",
-        "eth_name":"eth0"
+        "eth_name": "eth0"
     },
     "schema": {
         "networks": ["match(^!secret [a-zA-Z0-9_\\-]+$|[0-9a-z]{16})"],
